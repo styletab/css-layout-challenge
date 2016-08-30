@@ -1,0 +1,47 @@
+nav {
+  background-color: blue;
+  position: static;
+}
+
+aside
+{
+  width: 25%;
+  float: left;
+}
+
+footer {
+  position: static;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: yellow;
+  width: 100%;
+}
+
+.menu1 {
+  max-width: 10%;
+  background-color: green;
+}
+
+.menu2 {
+  max-width: 70%;
+  background-color: yellow;
+}
+
+.menu3 {
+  max-width: 10%;
+  background-color: blue;
+}
+
+.menu4 {
+  max-width: 10%;
+  background-color: red;
+}
+
+.toparticle {
+  width:25%;
+  height: 50px;
+  background-color: green;
+  position: static;
+
+}
