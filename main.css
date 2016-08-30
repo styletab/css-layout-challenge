@@ -1,47 +1,130 @@
+body {
+  margin: 0;
+}
+
 nav {
-  background-color: blue;
-  position: static;
+  color: black;
+  float: left;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 45px;
+
+}
+
+.home {
+  background-color: #C2F0FF;
+  float: left;
+  padding: 30px;
+  width: 100px;
+}
+
+.blog {
+  background-color: #F0C2FF;
+  float: left;
+  padding: 30px;
+  width: 800px;
+}
+
+.about {
+  background-color: #D1FFC2;
+  float: left;
+  padding: 30px;
+  width: 100px;
+
+}
+
+.contact {
+  background-color: #FFD2C2;
+  float: left;
+  padding: 30px;
+  width: 100px;
+}
+
+.logo {
+  clear: both;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+  width: 1000px;
+  height: 100px;
+  margin-left: 14%;
+  margin-bottom: 5%;
+  background-color: #B5B5B5;
+}
+
+.posts {
+  float: right;
+  margin-right: 9%;
+  margin-bottom: 60px;
+}
+
+.articles {
+  box-sizing: border-box;
+  border: 1px solid black;
+  height: 325px;
+  width: 325px;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+
+}
+
+.bottomarticle {
+  box-sizing: border-box;
+  border: 1px solid black;
+  clear: both;
+  text-align: center;
+  height: 275px;
+  box-sizing: border-box;
+
 }
 
 aside
 {
-  width: 25%;
+  box-sizing: border-box;
+  width: 17%;
   float: left;
+  border: 1px solid black;
+  height: 600px;
+  margin-left: 5%;
+  margin-right: 0;
+  text-align: center;
+  padding: 30px;
 }
 
+.twitter {
+  clear: both;
+  text-align: center;
+  box-sizing: border-box;
+  width: 1000px;
+  height: 50px;
+  margin-left: 14%;
+  margin-bottom: 0;
+  font-family: helvetica;
+  font-size: 20px;
+
+}
+a:link {
+    text-decoration: none;
+    color: #D61F84
+}
+
+a:hover {
+  color: #3CD4B0;
+}
+
+
+
 footer {
-  position: static;
+  box-sizing: border-box;
   bottom: 0;
   left: 0;
   height: 70px;
-  background-color: yellow;
+  background-color: #838EF0;
   width: 100%;
-}
-
-.menu1 {
-  max-width: 10%;
-  background-color: green;
-}
-
-.menu2 {
-  max-width: 70%;
-  background-color: yellow;
-}
-
-.menu3 {
-  max-width: 10%;
-  background-color: blue;
-}
-
-.menu4 {
-  max-width: 10%;
-  background-color: red;
-}
-
-.toparticle {
-  width:25%;
-  height: 50px;
-  background-color: green;
-  position: static;
-
+  clear: both;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 30px;
 }
