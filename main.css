@@ -1,69 +1,81 @@
 body {
   margin: 0;
+  border: 2px black solid;
+
 }
 
 nav {
+
   color: black;
   float: left;
   text-align: center;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 90%;
   margin-bottom: 45px;
+  margin-left: 5%;
 
 }
 
 .home {
+  box-sizing: border-box;
   background-color: #C2F0FF;
   float: left;
-  padding: 30px;
-  width: 100px;
+  width: 8.3%;
+  height: 55px;
+  padding: 1.5%;
 }
 
 .blog {
+  box-sizing: border-box;
   background-color: #F0C2FF;
   float: left;
-  padding: 30px;
-  width: 800px;
+  width: 75%;
+  height: 55px;
+  padding: 1.5%;
 }
 
 .about {
+  box-sizing: border-box;
   background-color: #D1FFC2;
   float: left;
-  padding: 30px;
-  width: 100px;
-
+  width: 8.3%;
+  height: 55px;
+  padding: 1.5%;
 }
 
 .contact {
+  box-sizing: border-box;
   background-color: #FFD2C2;
   float: left;
-  padding: 30px;
-  width: 100px;
+  width: 8.3%;
+  height: 55px;
+  padding: 1.5%;
 }
 
 .logo {
   clear: both;
   text-align: center;
-  padding: 40px;
   box-sizing: border-box;
-  width: 1000px;
+  padding: 40px;
+  width: 80%;
   height: 100px;
-  margin-left: 14%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-bottom: 5%;
   background-color: #B5B5B5;
 }
 
 .posts {
   float: right;
-  margin-right: 9%;
+  margin-right: 5%;
   margin-bottom: 60px;
+  width: 65%;
 }
 
 .articles {
   box-sizing: border-box;
   border: 1px solid black;
-  height: 325px;
-  width: 325px;
+  height: 250px;
+  width: 23.3%;
   float: left;
   box-sizing: border-box;
   text-align: center;
@@ -76,19 +88,19 @@ nav {
   clear: both;
   text-align: center;
   height: 275px;
-  box-sizing: border-box;
+  width: 70%;
 
 }
 
 aside
 {
   box-sizing: border-box;
-  width: 17%;
+  width: 15%;
   float: left;
   border: 1px solid black;
-  height: 600px;
+  height: 525px;
   margin-left: 5%;
-  margin-right: 0;
+  margin-right: 5%;
   text-align: center;
   padding: 30px;
 }
@@ -113,8 +125,6 @@ a:link {
 a:hover {
   color: #3CD4B0;
 }
-
-
 
 footer {
   box-sizing: border-box;
